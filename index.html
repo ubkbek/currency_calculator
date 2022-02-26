@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>7-dars</title>
+</head>
+<body>
+    <h1 class="heading">Currency calculator</h1>
+
+    <section class="сurrency">
+        <div class="container сurrency__container">
+            <form class="currency__form" action="https://echo.htmlacademy.ru/" method="POST">
+                <div class="currency__wrapper top">
+                    <input class="сurrency__imput-amound input-style" min="0" type="number" name="user_amound" placeholder="Enter your amound">
+
+                    <select class="сurrency__select-valyut input-style" name="selected_currency">
+                        <option selected hidden>Select the currency</option>
+                        <option value="usd">USD</option>
+                        <option value="rub">RUB</option>
+                        <option value="eur">EUR</option>
+                    </select>
+                </div>
+
+                <div class="currency__wrapper">
+                    <div class="currency__result">
+                        Result
+                    </div>
+
+                    <button class="currency__btn" type="submit">
+                        Calculate
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
