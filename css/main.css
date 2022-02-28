@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 /* .сurrency{
     /* height: 100vw; */
-} */
+/* } */ */
 
 .currency__wrapper {
     display: flex;
@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6, p{
     }
 
     .container{
-        max-width: 70%;
+        max-width: 90%;
     }
 
     .input-style{
