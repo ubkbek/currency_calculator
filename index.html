@@ -14,9 +14,9 @@
         <div class="container сurrency__container">
             <form class="currency__form" action="https://echo.htmlacademy.ru/" method="POST">
                 <div class="currency__wrapper top">
-                    <input class="сurrency__imput-amound input-style" min="0" type="number" name="user_amound" placeholder="Enter your amound">
+                    <input class="сurrency__imput-amound input-style" min="0" step="10" type="number" name="user_amound" placeholder="Enter your amound" required>
 
-                    <select class="сurrency__select-valyut input-style" name="selected_currency">
+                    <select class="сurrency__select-valyut input-style" name="selected_currency" required>
                         <option selected hidden>Select the currency</option>
                         <option value="usd">USD</option>
                         <option value="rub">RUB</option>

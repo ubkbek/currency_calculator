@@ -14,7 +14,5 @@ elCurrencyForm.addEventListener("submit", function(evt){
             case "rub":  result = elInputAmound.value * 128.70; break;
             case "eur":  result = elInputAmound.value * 12165.97; break;
         }
-
-        console.log(result);
-        currencyResult.textContent = result;
+        currencyResult.textContent = `${result} so'm`;
     })
