@@ -85,3 +85,32 @@ h1, h2, h3, h4, h5, h6, p{
     font-family: sans-serif;
     font-weight: 700;
 }
+
+
+@media only screen and (max-width :900px) {
+    .currency__wrapper {
+        flex-direction: column;
+    }
+
+    .container{
+        max-width: 70%;
+    }
+
+    .input-style{
+        width: 100%;
+    }
+
+    .margin-bottom{
+        margin-bottom: 16px;
+    }
+
+    .currency__btn{
+        order: -1;
+        margin-bottom: 16px;
+        width: 100%;
+    }
+
+    .currency__result{
+        width: 100%;
+    }
+}
