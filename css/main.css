@@ -7,7 +7,6 @@ body{
     padding: 0;
     background: linear-gradient(0deg, rgba(163,163,212,1) 0%, rgba(253,255,255,1) 100%);
     background-repeat: no-repeat;
-    height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6, p{
@@ -29,9 +28,9 @@ h1, h2, h3, h4, h5, h6, p{
     color: rgb(94, 93, 93);
 }
 
-/* .сurrency{
-    /* height: 100vw; */
-/* } */ */
+.сurrency{
+    height: 100vw;
+}
 
 .currency__wrapper {
     display: flex;
@@ -85,33 +84,4 @@ h1, h2, h3, h4, h5, h6, p{
     font-size: large;
     font-family: sans-serif;
     font-weight: 700;
-}
-
-
-@media only screen and (max-width :900px) {
-    .currency__wrapper {
-        flex-direction: column;
-    }
-
-    .container{
-        max-width: 90%;
-    }
-
-    .input-style{
-        width: 100%;
-    }
-
-    .margin-bottom{
-        margin-bottom: 16px;
-    }
-
-    .currency__btn{
-        order: -1;
-        margin-bottom: 16px;
-        width: 100%;
-    }
-
-    .currency__result{
-        width: 100%;
-    }
 }
