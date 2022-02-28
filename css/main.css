@@ -7,6 +7,7 @@ body{
     padding: 0;
     background: linear-gradient(0deg, rgba(163,163,212,1) 0%, rgba(253,255,255,1) 100%);
     background-repeat: no-repeat;
+    height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6, p{
@@ -28,9 +29,9 @@ h1, h2, h3, h4, h5, h6, p{
     color: rgb(94, 93, 93);
 }
 
-.сurrency{
-    height: 100vw;
-}
+/* .сurrency{
+    /* height: 100vw; */
+} */
 
 .currency__wrapper {
     display: flex;
